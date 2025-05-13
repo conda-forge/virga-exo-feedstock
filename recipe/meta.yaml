@@ -1,5 +1,5 @@
 {% set name = "virga-exo" %}
-{% set version = "0.4" %}
+{% set version = "0.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/virga-exo-{{ version }}.tar.gz
-  sha256: e3acf98902fc7499ba3555084037dbfd68224ec063a534843d47147598246e6d
+  sha256: ee3759a88401197eed849ad88076b611d977121faf618544caeef51d6e846ec3
 
 build:
   noarch: python
@@ -28,7 +28,7 @@ requirements:
     - photutils
     - astropy-base
     - scipy
-    - pymiescatt
+    - miepython
 
 test:
   imports:
