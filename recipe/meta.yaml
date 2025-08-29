@@ -24,11 +24,10 @@ requirements:
     - numpy
     - pandas
     - bokeh
-    - joblib
-    - photutils
     - astropy-base
     - scipy
     - miepython
+    - matplotlib
 
 test:
   imports:
@@ -42,7 +41,7 @@ test:
 
 about:
   home: https://natashabatalha.github.io/virga
-  summary: exoplanet code for compute cloud structure
+  summary: substellar atmosphere code for computing clouds
   license: GPL-3.0-or-later
   license_file: LICENSE
 
