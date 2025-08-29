@@ -7,7 +7,7 @@ Home: https://natashabatalha.github.io/virga
 
 Package license: GPL-3.0-or-later
 
-Summary: exoplanet code for compute cloud structure
+Summary: substellar atmosphere code for computing clouds
 
 Current build status
 ====================
