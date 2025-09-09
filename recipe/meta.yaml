@@ -26,7 +26,7 @@ requirements:
     - pandas
     - bokeh
     - astropy-base
-    - scipy
+    - scipy <1.6
     - miepython
     - matplotlib-base
 
