@@ -1,5 +1,5 @@
 {% set name = "virga-exo" %}
-{% set version = "2.0.1" %}
+{% set version = "2.0.2" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 4deb1e3fb637032d4de6f7fbde89954b151562bdc3d22f9302c6815e26cb76b0
+  sha256: 0e2685d58011d9a5b9b5177a71e5ab945eee082f8cd81839a6c4f950524c6a42
 
 build:
   noarch: python
